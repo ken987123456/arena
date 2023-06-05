@@ -1,3 +1,19 @@
+import React from 'react'
+import Head from 'next/head'
+import Image from 'next/image';
+import Link from 'next/link';
+
+
+export default function index() {
+  return (
+    <>
+    <Head>
+     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+    </Head>
+
+ 
+    
+
 <header data-bs-theme="dark">
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
@@ -47,3 +63,7 @@
    </div>
 </nav>
 </header>
+
+</>
+  )
+}
