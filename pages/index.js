@@ -44,7 +44,7 @@ export default function index() {
           <a className="nav-link" href="about">About </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">....</a>
+          <a className="nav-link" href="support">Support</a>
         </li>
         
       </ul>
@@ -581,9 +581,6 @@ export default function index() {
     </footer>
   </div>
 </div>
-
-    
-
 
 </footer> 
     </>
