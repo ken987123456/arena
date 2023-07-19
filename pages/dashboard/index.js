@@ -18,10 +18,10 @@ export default function Component({ posts }) {
     return (
       <>
 
-<nav class="navbar navbar-light bg-warning">
-  <div class="container-fluid">
+<nav className="navbar navbar-light bg-warning">
+  <div className="container-fluid">
   <div className="col">
-  <div align="right"> Signed in as {session.user.email} {session.user.fname} {session.user.lname} <button  className="btn btn-danger" onClick={() => signOut()}>Sign out</button></div>
+  <div align="right"> Signed in as &nbsp;&nbsp;{session.user.email}&nbsp;&nbsp; {session.user.fname}&nbsp; {session.user.lname} <button  className="btn btn-danger" onClick={() => signOut()}>Sign out</button></div>
   </div>
   </div>
 </nav>
@@ -39,7 +39,7 @@ export default function Component({ posts }) {
             <div className="col">
             <div className="card">
         <ul className="list-group list-group-flush">
-        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+        <li className="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
                                     <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
                                     </svg> &nbsp;&nbsp;List member</li>
         </ul>
