@@ -1,9 +1,10 @@
 import { useSession, signIn, signOut } from "next-auth/react"
 import { useRouter } from "next/router";
+import Link from 'next/link';
 
 export async function getServerSideProps(req) {
     const id = req.query;
-    const res = await fetch('http://localhost:3000/api/users?id=' + id, {
+    const res = await fetch('https://frontend-ib7j.vercel.app/api/users?id=' + id, {
       method: 'GET',
     })
     const posts = await res.json();
@@ -33,7 +34,7 @@ export default function Component({ posts }) {
       status: data.get('txt_status')
     }
 
-      fetch(`http://localhost:3000/api/users`, {
+      fetch(`https://frontend-ib7j.vercel.app/api/users`, {
         method: 'PUT', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
