@@ -89,7 +89,7 @@ export default function Component({ posts }) {
     console.log("password:", jsonData.password);
     console.log("status:", jsonData.status);
 
-     fetch('arena-three.vercel.app/api/users', {
+     fetch('https://frontend-ib7j.vercel.app/api/users', {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
