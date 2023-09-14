@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export async function getServerSideProps(req) {
     const { id } = req.query
-    const res = await fetch('arena-three.vercel.app/api/users/' + id, {
+    const res = await fetch('https://frontend-ib7j.vercel.app/api/users/' + id, {
       method: 'GET',
     })
     const posts = await res.json();
