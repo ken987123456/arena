@@ -34,7 +34,7 @@ export default function Component({ posts }) {
       status: data.get('txt_status')
     }
 
-      fetch(`https://frontend-ib7j.vercel.app/api/users`, {
+      fetch(`arena-three.vercel.app/api/users`, {
         method: 'PUT', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
