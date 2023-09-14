@@ -8,7 +8,7 @@ export default function index() {
   return (
     <>
     <Head>
-     <title>Film camera</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
+     <title>animal</title> <link rel="icon" href="/icon.png" type="image/icon"/> 
     </Head>
 
  
@@ -18,8 +18,8 @@ export default function index() {
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
    <div className="container">
     <Link className="navbar-brand" Link href="/."> 
-      <img src="iconnav1.png" alt="Bootstrap" width={50} height={50} />&nbsp;  
-      Film camera
+      <img src="20.gif" alt="Bootstrap" width={50} height={50} />&nbsp;  
+      Animal
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -31,13 +31,13 @@ export default function index() {
         </li>
         <li className="nav-item dropdown">
           <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Product
+          ประเภท
           </Link>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" Link href="filmcamera">Film camera</Link></li>
-            <li><Link className="dropdown-item" Link href="film">Film </Link></li>
+            <li><Link className="dropdown-item" Link href="filmcamera">สัตว์</Link></li>
+            <li><Link className="dropdown-item" Link href="film">สัตว์บก </Link></li>
             <li><hr className="dropdown-divider" /></li>
-            <li><Link className="dropdown-item" Link href="lens">Lens</Link></li>
+            <li><Link className="dropdown-item" Link href="lens">สัตว์น้ำ</Link></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -72,13 +72,13 @@ export default function index() {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval={4000}>
-      <img src="film1.jpg" className="d-block w-100" alt="..." />
+      <img src="20.jpg" className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item" data-bs-interval={4000}>
-      <img src="film2.jpg" className="d-block w-100" alt="..." />
+      <img src="21.jpg" className="d-block w-100" alt="..." />
     </div>
     <div className="carousel-item"data-bs-interval={4000}>
-      <img src="film3.jpg" className="d-block w-100" alt="..." />
+      <img src="22.jpg" className="d-block w-100" alt="..." />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -99,12 +99,9 @@ export default function index() {
   <section className="py-5 text-center container">
     <div className="row py-lg-5">
       <div className="col-lg-6 col-md-8 mx-auto">
-        <h1 className="fw-light">Film camera</h1>
-        <p className="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="#" className="btn btn-primary my-2">Main call to action</a>&nbsp;&nbsp;
-          <a href="#" className="btn btn-secondary my-2">Secondary action</a>
-        </p>
+        <h1 className="fw-light">สัตว์เลี้ยงลูกด้วยนม</h1>
+        <p className="lead text-body-secondary">สัตว์เลี้ยงลูกด้วยนม[1] (อังกฤษ: mammal; จากภาษาละติน mamma "เต้านม") เป็นกลุ่มของสัตว์มีกระดูกสันหลังที่ประกอบขึ้นเป็นชั้นสัตว์เลี้ยงลูกด้วยนม (Mammalia[a]) สัตว์เลี้ยงลูกด้วยนมมีลักษณะเด่น ได้แก่ มีต่อมน้ำนมที่พบในเพศเมีย (หรือพบได้ในเพศผู้เป็นบางครั้ง[2]) ทำหน้าที่ผลิตน้ำนมสำหรับเลี้ยงลูกอ่อน[3] มีคอร์เทกซ์ใหม่ (บริเวณหนึ่งของสมอง) มีขนสัตว์หรือเส้นผม และมีกระดูกหูชั้นกลางสามชิ้น ลักษณะเด่นดังกล่าวจำแนกสัตว์เลี้ยงลูกด้วยนมออกจากสัตว์เลื้อยคลานและสัตว์ปีก ซึ่งสัตว์ทั้งสามกลุ่มนั้นเบนออกจากกันเมื่อ 201–227 ล้านปีก่อน</p>
+        
       </div>
     </div>
   </section>
@@ -113,10 +110,10 @@ export default function index() {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-          <img src="P1.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="0.1.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม YASHICA FX-2 (ค.ศ. 1976) </p>
-              <h1><p className="card-text"> 2,800 ฿ </p></h1>
+              <p className="card-text">เหยี่ยว </p>
+              <h1><p className="card-text"> 5,000 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -134,10 +131,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc2.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="0.2.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Pentax MX (ค.ศ. 1976) </p>
-              <h1><p className="card-text"> 4,990 ฿ </p></h1>
+              <p className="card-text">แรคคูน </p>
+              <h1><p className="card-text"> 14,990 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -155,9 +152,9 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc3.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="0.3.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Olympus pen ees2 (ค.ศ. 1973) </p>
+              <p className="card-text">คอร์นสเน็ค </p>
               <h1><p className="card-text"> 4,500 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -176,10 +173,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <img src="fc4.jpg" alt="Bootstrap" width="100%" height={225} />
+            <img src="0.4.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม NIKON FG2 (ค.ศ.1982) </p>
-              <h1><p className="card-text"> 7,450 ฿ </p></h1>
+              <p className="card-text">เฟอเรท </p>
+              <h1><p className="card-text"> 17,450 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -197,10 +194,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc5.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="0.5.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Canon AE-1 Program (ค.ศ. 1981) </p>
-              <h1><p className="card-text"> 6,500 ฿ </p></h1>
+              <p className="card-text">แมวคาราคัล (Caracal) </p>
+              <h1><p className="card-text"> 56,500 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -218,9 +215,9 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc6.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="0.6.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Minolta Hi-Matic 7 Sii (ค.ศ. 1977) </p>
+              <p className="card-text">เมนแคระ </p>
               <h1><p className="card-text"> 2,800 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -239,9 +236,9 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc7.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="0.8.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Rollei 35 SE  (ค.ศ. 1980) </p>
+              <p className="card-text">แพรี่ด็อก </p>
               <h1><p className="card-text"> 12,000 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -260,10 +257,10 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc8.jpg" alt="Bootstrap" width="100%" height={225} />
+          <img src="31.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม Leica Mini Lux (ค.ศ. 2005) </p>
-              <h1><p className="card-text"> 35,000 ฿ </p></h1>
+              <p className="card-text">ชูการ์ไกลเดอร์ </p>
+              <h1><p className="card-text"> 15,000 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
@@ -281,9 +278,9 @@ export default function index() {
         </div>
         <div className="col">
           <div className="card shadow-sm">
-          <img src="fc9.png" alt="Bootstrap" width="100%" height={225} />
+          <img src="36.jpg" alt="Bootstrap" width="100%" height={225} />
             <div className="card-body">
-              <p className="card-text">กล้องฟิล์ม YASHICA ELECTRO 35 GS (ค.ศ.1970) </p>
+              <p className="card-text">ชินชิลา </p>
               <h1><p className="card-text"> 7,890 ฿ </p></h1>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
@@ -304,220 +301,6 @@ export default function index() {
     </div>
   </div>
   </div>
-
-
-
-  <div>
-  <section className="py-5 text-center container">
-    <div className="row py-lg-5">
-      <div className="col-lg-6 col-md-8 mx-auto">
-        <h1 className="fw-light">Film</h1>
-        <p className="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="#" className="btn btn-primary my-2">Main call to action</a>&nbsp;&nbsp;
-          <a href="#" className="btn btn-secondary my-2">Secondary action</a>
-        </p>
-      </div>
-    </div>
-  </section>
-  <div className="album py-5 bg-body-tertiary">
-    <div className="container">
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f1.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJI COLOR C200 (135/35MM) </p>
-              <h1><p className="card-text"> 155 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f2.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJI SUPERIA X-TRA 400 (135/35MM) </p>
-              <h1><p className="card-text"> 209 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f3.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJI PRO 400H (135/35MM) </p>
-              <h1><p className="card-text"> 375 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <img src="f4.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJICHROME Velvia 50 (135/35MM) </p>
-              <h1><p className="card-text"> 950 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <img src="f8.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJICHROME Velvia 100 (135/35MM) </p>
-              <h1><p className="card-text"> 610 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <img src="f9.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี FUJICHROME PROVIA 100F (135/35MM) </p>
-              <h1><p className="card-text"> 630 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f5.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี KODAK COLOR PLUS 200 (135/35MM) </p>
-              <h1><p className="card-text"> 115 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f6.jpg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี KODAK ULTRAMAX 400 (135/35MM) </p>
-              <h1><p className="card-text"> 199 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-          <img src="f7.jpeg" alt="Bootstrap" width="100%" height={225} />
-            <div className="card-body">
-              <p className="card-text">ฟิล์มสี KODAK GOLD 200 (135/35MM) </p>
-              <h1><p className="card-text"> 195 ฿ </p></h1>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
-  <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
-</svg> </button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="20" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
-  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
-</svg> </button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-
-
 
 </main>
 

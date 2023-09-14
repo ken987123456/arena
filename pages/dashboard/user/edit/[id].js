@@ -183,7 +183,7 @@ export default function Component({ posts }) {
           <tr>
             <td>
           <button type="submit" className="btn btn-success">SAVE</button>&nbsp;&nbsp; {/* */}
-          <button className="btn btn-warning"><Link href="." > Back </Link></button> {/* */}
+          <button className="btn btn-warning"><Link href="/dashboard" > Back </Link></button> {/* */}
           </td>
           </tr>
           </>
