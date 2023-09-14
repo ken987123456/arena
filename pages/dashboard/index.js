@@ -21,7 +21,7 @@ export default function Component({ posts }) {
 
 const handleDelete = async (id) => {
    console.log("ID : ", id);
-fetch('https://frontend-ib7j.vercel.app/api/users?id=' + id, {
+fetch('arena-three.vercel.app/api/users?id=' + id, {
   method: 'DELETE',
 })
 return router.reload('/dashboard')
